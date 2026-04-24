@@ -127,7 +127,7 @@ function App() {
 
         <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center gap-8">
           {/* Main Heading */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center leading-tight animate-fade-in">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-center whitespace-nowrap animate-fade-in">
             <span className="text-white">Why Your Ads Aren't Scaling </span>
             <span className="text-[#4DC035]">(And How We Fix It)</span>
           </h1>
