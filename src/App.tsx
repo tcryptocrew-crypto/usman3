@@ -125,15 +125,26 @@ function App() {
           <X className="absolute bottom-48 right-40 w-12 h-12 text-[#0A1931] opacity-20 animate-float" />
         </div>
 
-        <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center gap-10">
-          {/* Horizontal Video */}
-          <div className="w-full max-w-3xl rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(77,192,53,0.08)] animate-fade-in">
+        <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center gap-8">
+          {/* Main Heading */}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center leading-tight animate-fade-in">
+            <span className="text-white">Why Your Ads Aren't Scaling </span>
+            <span className="text-[#4DC035]">(And How We Fix It)</span>
+          </h1>
+
+          {/* Subtext */}
+          <p className="text-white/60 text-sm sm:text-base text-center animate-fade-in-delayed">
+            Watch this to see what's holding your results back
+          </p>
+
+          {/* VSL Video */}
+          <div className="w-full max-w-3xl rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(77,192,53,0.08)] animate-fade-in-delayed">
             <div className="relative w-full aspect-video bg-black">
               <iframe
                 width="100%"
                 height="100%"
                 src="https://www.youtube.com/embed/SnTC8q6gy_Q?si=GlcnCdS6LqrYidc_&autoplay=0"
-                title="Featured Video"
+                title="VSL Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
@@ -141,12 +152,6 @@ function App() {
               />
             </div>
           </div>
-
-          {/* Heading */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center leading-tight animate-fade-in-delayed">
-            <span className="text-white">Scale Your Business With </span>
-            <span className="text-[#4DC035]">Data-Driven High Quality Video Ads</span>
-          </h1>
 
           {/* CTA Button */}
           <div className="animate-fade-in-delayed-2">
